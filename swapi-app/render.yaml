@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: public_api_checker
-    env: node
-    buildCommand: npm install && npm run build
-    startCommand: npm run start
-    staticPath: /dist
