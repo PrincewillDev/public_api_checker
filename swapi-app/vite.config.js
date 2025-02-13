@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   build: {
-    outDir: 'dist' // Remove the trailing comma in the string
-  }
+    outDir: 'dist'
+  },
 });
